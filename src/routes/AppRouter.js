@@ -33,7 +33,7 @@ export const AppRouter = () => {
                                         <Route exact path="/forms" component={FormsPage} /> {/* Mario */}
                                         <Route exact path="/tablas" component={TablasPage} /> {/* Charls */}
                                         <Route exact path="/carga" component={CargaPage} /> {/* Yaku */}
-                                        <Route exact path="/" component={HomePage} />
+                                        <Route exact path="/" component={HomePage} /> {/* Posi */}
                                     </Switch>
                                 </div>
                             </div>
