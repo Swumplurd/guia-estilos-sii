@@ -29,6 +29,30 @@ export const SideBar = () => {
                             Navbar
                         </NavLink>
                     </li>
+                    <li className="nav-item">
+                        <NavLink exact to="/card" classNameActive="active" className="nav-link">
+                            <svg className="bi me-2" width="16" height="16"></svg>
+                            Card
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink exact to="/efectos" classNameActive="active" className="nav-link">
+                            <svg className="bi me-2" width="16" height="16"></svg>
+                            Efectos
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink exact to="/forms" classNameActive="active" className="nav-link">
+                            <svg className="bi me-2" width="16" height="16"></svg>
+                            Forms
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink exact to="/tablas" classNameActive="active" className="nav-link">
+                            <svg className="bi me-2" width="16" height="16"></svg>
+                            Tablas
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
         </>

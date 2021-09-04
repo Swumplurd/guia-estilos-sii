@@ -2,10 +2,14 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import { BotonPage } from "../components/BotonPage/BotonPage";
+import { CardPage } from "../components/CardPage/CardPage";
 import { ColorPage } from "../components/ColorPage/ColorPage";
+import { EfectosPage } from "../components/EfectosPage/EfectosPage";
+import { FormsPage } from "../components/FormsPage/FormsPage";
 import { HomePage } from "../components/HomePage/HomePage";
 import { NavbarPage } from "../components/NavbarPage/NavbarPage";
 import { SideBar } from "../components/SideBar/SideBar";
+import { TablasPage } from "../components/TablasPage/TablasPage";
 
 export const AppRouter = () => {
     return (
@@ -23,6 +27,10 @@ export const AppRouter = () => {
                                         <Route exact path="/colores" component={ColorPage} />
                                         <Route exact path="/navbar" component={NavbarPage} />
                                         <Route exact path="/botones" component={BotonPage} />
+                                        <Route exact path="/card" component={CardPage} />
+                                        <Route exact path="/efectos" component={EfectosPage} />
+                                        <Route exact path="/forms" component={FormsPage} />
+                                        <Route exact path="/tablas" component={TablasPage} />
                                         <Route exact path="/" component={HomePage} />
                                     </Switch>
                                 </div>
