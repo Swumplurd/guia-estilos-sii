@@ -30,6 +30,12 @@ export const SideBar = () => {
                         </NavLink>
                     </li>
                     <li className="nav-item">
+                        <NavLink exact to="/botones" classNameActive="active" className="nav-link">
+                            <svg className="bi me-2" width="16" height="16"></svg>
+                            Botones
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
                         <NavLink exact to="/card" classNameActive="active" className="nav-link">
                             <svg className="bi me-2" width="16" height="16"></svg>
                             Card
@@ -51,6 +57,12 @@ export const SideBar = () => {
                         <NavLink exact to="/tablas" classNameActive="active" className="nav-link">
                             <svg className="bi me-2" width="16" height="16"></svg>
                             Tablas
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink exact to="/carga" classNameActive="active" className="nav-link">
+                            <svg className="bi me-2" width="16" height="16"></svg>
+                            Mascara de Carga
                         </NavLink>
                     </li>
                 </ul>

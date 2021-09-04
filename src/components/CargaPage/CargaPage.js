@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const EfectosPage = () => {
+export const CargaPage = () => {
     return (
         <div>
             

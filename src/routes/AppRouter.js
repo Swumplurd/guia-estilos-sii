@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import { BotonPage } from "../components/BotonPage/BotonPage";
 import { CardPage } from "../components/CardPage/CardPage";
+import { CargaPage } from "../components/CargaPage/CargaPage";
 import { ColorPage } from "../components/ColorPage/ColorPage";
 import { EfectosPage } from "../components/EfectosPage/EfectosPage";
 import { FormsPage } from "../components/FormsPage/FormsPage";
@@ -28,9 +29,10 @@ export const AppRouter = () => {
                                         <Route exact path="/navbar" component={NavbarPage} />
                                         <Route exact path="/botones" component={BotonPage} />
                                         <Route exact path="/card" component={CardPage} />
-                                        <Route exact path="/efectos" component={EfectosPage} />
-                                        <Route exact path="/forms" component={FormsPage} />
-                                        <Route exact path="/tablas" component={TablasPage} />
+                                        <Route exact path="/efectos" component={EfectosPage} /> {/* Fercho */}
+                                        <Route exact path="/forms" component={FormsPage} /> {/* Mario */}
+                                        <Route exact path="/tablas" component={TablasPage} /> {/* Charls */}
+                                        <Route exact path="/carga" component={CargaPage} /> {/* Yaku */}
                                         <Route exact path="/" component={HomePage} />
                                     </Switch>
                                 </div>
