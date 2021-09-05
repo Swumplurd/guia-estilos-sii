@@ -4,7 +4,12 @@ import "./ColorPage.css";
 export const ColorPage = () => {
     return (
         <div className="container mt-3">
-            <div className="row p-4 rounded" style={{ backgroundColor: "#dddddd" }}>
+            <h1>Tema de colores</h1>
+            <p>
+                Usamos el siguiente conjunto de colores usando los mismos nombres que Bootstrap para una facil implementacion.
+            </p>
+
+            <div className="row p-4 rounded p-5" style={{ backgroundColor: "#dddddd" }}>
                 <div className="col-md-4">
                     <div className="p-3 mb-3 primary text-white">Primary</div>
                 </div>
