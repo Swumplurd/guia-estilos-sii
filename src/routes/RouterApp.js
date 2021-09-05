@@ -24,39 +24,39 @@ export const RouterApp = () => {
                                 </Link>
                                 <ul className="nav w-100 nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                                     <li className="nav-item w-100">
-                                        <NavLink exact to="/" className="nav-link align-middle px-3">
+                                        <NavLink exact to="/guia-estilos-sii/" className="nav-link align-middle px-3">
                                             <i className="fs-4 bi-house"></i>
                                             <span className="ms-1 d-none d-sm-inline">Get Started</span>
                                         </NavLink>
-                                        <NavLink exact to="/colores" className="nav-link align-middle px-3">
+                                        <NavLink exact to="/guia-estilos-sii/colores" className="nav-link align-middle px-3">
                                             <i className="fs-4 bi-house"></i>
                                             <span className="ms-1 d-none d-sm-inline">Colores</span>
                                         </NavLink>
-                                        <NavLink exact to="/botones" className="nav-link align-middle px-3">
+                                        <NavLink exact to="/guia-estilos-sii/botones" className="nav-link align-middle px-3">
                                             <i className="fs-4 bi-house"></i>
                                             <span className="ms-1 d-none d-sm-inline">Botones</span>
                                         </NavLink>
-                                        <NavLink exact to="/cards" className="nav-link align-middle px-3">
+                                        <NavLink exact to="/guia-estilos-sii/cards" className="nav-link align-middle px-3">
                                             <i className="fs-4 bi-house"></i>
                                             <span className="ms-1 d-none d-sm-inline">Cards</span>
                                         </NavLink>
-                                        <NavLink exact to="/forms" className="nav-link align-middle px-3">
+                                        <NavLink exact to="/guia-estilos-sii/forms" className="nav-link align-middle px-3">
                                             <i className="fs-4 bi-house"></i>
                                             <span className="ms-1 d-none d-sm-inline">Forms</span>
                                         </NavLink>
-                                        <NavLink exact to="/navbar" className="nav-link align-middle px-3">
+                                        <NavLink exact to="/guia-estilos-sii/navbar" className="nav-link align-middle px-3">
                                             <i className="fs-4 bi-house"></i>
                                             <span className="ms-1 d-none d-sm-inline">Navbar</span>
                                         </NavLink>
-                                        <NavLink exact to="/tablas" className="nav-link align-middle px-3">
+                                        <NavLink exact to="/guia-estilos-sii/tablas" className="nav-link align-middle px-3">
                                             <i className="fs-4 bi-house"></i>
                                             <span className="ms-1 d-none d-sm-inline">Tablas</span>
                                         </NavLink>
-                                        <NavLink exact to="/carga" className="nav-link align-middle px-3">
+                                        <NavLink exact to="/guia-estilos-sii/carga" className="nav-link align-middle px-3">
                                             <i className="fs-4 bi-house"></i>
                                             <span className="ms-1 d-none d-sm-inline">Mascara de Carga</span>
                                         </NavLink>
-                                        <NavLink exact to="/efectos" className="nav-link align-middle px-3">
+                                        <NavLink exact to="/guia-estilos-sii/efectos" className="nav-link align-middle px-3">
                                             <i className="fs-4 bi-house"></i>
                                             <span className="ms-1 d-none d-sm-inline">Efectos</span>
                                         </NavLink>
