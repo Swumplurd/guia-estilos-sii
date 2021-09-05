@@ -1,5 +1,5 @@
 import React from "react";
-import './ColorPage.css';
+import "./ColorPage.css";
 
 export const ColorPage = () => {
     return (

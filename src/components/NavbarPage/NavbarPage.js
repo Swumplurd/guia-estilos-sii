@@ -1,5 +1,5 @@
-import React from 'react'
-import './NavbarPage.css'
+import React from "react";
+import "./NavbarPage.css";
 
 export const NavbarPage = () => {
     return (
@@ -13,25 +13,43 @@ export const NavbarPage = () => {
                 <div className="col-sm-12">
                     <nav className="navbar navbar-expand-lg navbar-dark bg_primary">
                         <div className="container-fluid">
-                            <a className="navbar-brand text-white" href="#"><img loading="lazy" src="assets/img/favico.png" width="30px" height="30px" /> LOGO</a>
-                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <a className="navbar-brand text-white" href="#">
+                                <img loading="lazy" src="assets/img/favico.png" width="30px" height="30px" /> LOGO
+                            </a>
+                            <button
+                                className="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                                        <a className="nav-link active" aria-current="page" href="#">
+                                            Inicio
+                                        </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" href="#">Lorem.</a>
+                                        <a className="nav-link active" href="#">
+                                            Lorem.
+                                        </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" href="#">Lorem, ipsum.</a>
+                                        <a className="nav-link active" href="#">
+                                            Lorem, ipsum.
+                                        </a>
                                     </li>
                                 </ul>
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="btn btn_primary" href="#"><i className="fas fa-user mr-1"></i> Iniciar Sesion</a>
+                                        <a className="btn btn_primary" href="#">
+                                            <i className="fas fa-user mr-1"></i> Iniciar Sesion
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -50,14 +68,14 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"navbar navbar-expand-lg navbar-dark bg_primary"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-2">&lt;</span>
                                 <span className="nt">div</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"container-fluid"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-3">&lt;</span>
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
@@ -67,7 +85,7 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"#"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;</span>
                                 <span className="nt">img</span>
                                 <span className="na"> loading</span>
@@ -83,11 +101,11 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"30px"</span>
                                 <span className="p">&gt;</span> LOGO
-                                <br/>
+                                <br />
                                 <span className="p t-3">&lt;/</span>
                                 <span className="nt">a</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-3">&lt;</span>
                                 <span className="nt">button</span>
                                 <span className="na"> class</span>
@@ -112,7 +130,7 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"Toggle navigation"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;</span>
                                 <span className="nt">span</span>
                                 <span className="na"> class</span>
@@ -122,11 +140,11 @@ export const NavbarPage = () => {
                                 <span className="p">&lt;/</span>
                                 <span className="nt">span</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-3">&lt;/</span>
                                 <span className="nt">button</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-3">&lt;</span>
                                 <span className="nt">div</span>
                                 <span className="na"> class</span>
@@ -136,21 +154,21 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"navbarSupportedContent"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;</span>
                                 <span className="nt">ul</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"navbar-nav me-auto mb-2 mb-lg-0"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;</span>
                                 <span className="nt">li</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"nav-item"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;</span>
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
@@ -166,18 +184,18 @@ export const NavbarPage = () => {
                                 <span className="p">&lt;/</span>
                                 <span className="nt">a</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;/</span>
                                 <span className="nt">li</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;</span>
                                 <span className="nt">li</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"nav-item"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;</span>
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
@@ -190,18 +208,18 @@ export const NavbarPage = () => {
                                 <span className="p">&lt;/</span>
                                 <span className="nt">a</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;/</span>
                                 <span className="nt">li</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;</span>
                                 <span className="nt">li</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"nav-item"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;</span>
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
@@ -214,29 +232,29 @@ export const NavbarPage = () => {
                                 <span className="p">&lt;/</span>
                                 <span className="nt">a</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;/</span>
                                 <span className="nt">li</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;/</span>
                                 <span className="nt">ul</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;</span>
                                 <span className="nt">ul</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"navbar-nav me-auto mb-2 mb-lg-0"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;</span>
                                 <span className="nt">li</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"nav-item"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;</span>
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
@@ -246,7 +264,7 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"#"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-7">&lt;</span>
                                 <span className="nt">i</span>
                                 <span className="na"> class</span>
@@ -256,27 +274,27 @@ export const NavbarPage = () => {
                                 <span className="p">&lt;/</span>
                                 <span className="nt">i</span>
                                 <span className="p">&gt;</span> Iniciar Sesion
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;/</span>
                                 <span className="nt">a</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;/</span>
                                 <span className="nt">li</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;/</span>
                                 <span className="nt">ul</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-3">&lt;/</span>
                                 <span className="nt">div</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-2">&lt;/</span>
                                 <span className="nt">div</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p">&lt;/</span>
                                 <span className="nt">nav</span>
                                 <span className="p">&gt;</span>
@@ -294,26 +312,48 @@ export const NavbarPage = () => {
                 <div className="col-sm-12">
                     <nav className="navbar navbar-expand-lg navbar-dark bg_primary">
                         <div className="container-fluid">
-                            <a className="navbar-brand text-white" href="#"><img loading="lazy" src="assets/img/favico.png" width="30px" height="30px" /> LOGO</a>
-                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <a className="navbar-brand text-white" href="#">
+                                <img loading="lazy" src="assets/img/favico.png" width="30px" height="30px" /> LOGO
+                            </a>
+                            <button
+                                className="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                                        <a className="nav-link active" aria-current="page" href="#">
+                                            Inicio
+                                        </a>
                                     </li>
                                 </ul>
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item mx-auto d-block">
-                                        <a href="#" className="btn btn_primary">Enero -Junio</a>
+                                        <a href="#" className="btn btn_primary">
+                                            Enero -Junio
+                                        </a>
                                     </li>
                                 </ul>
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item dropdown">
-                                        <a className="nav-link active dropdown-toggle btn btn_primary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i className="fas fa-user mr-1" ></i> Linces</a>
+                                        <a className="nav-link active dropdown-toggle btn btn_primary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i className="fas fa-user mr-1"></i> Linces
+                                        </a>
                                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a className="dropdown-item" href="#"><button className="btn btn_outline_danger" type="button" id="btnCerrarSesion"><i className="fas fa-power-off mr-1"></i> Cerrar Sesion</button></a></li>
+                                            <li>
+                                                <a className="dropdown-item" href="#">
+                                                    <button className="btn btn_outline_danger" type="button" id="btnCerrarSesion">
+                                                        <i className="fas fa-power-off mr-1"></i> Cerrar Sesion
+                                                    </button>
+                                                </a>
+                                            </li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -333,14 +373,14 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"navbar navbar-expand-lg navbar-dark bg_primary"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-2">&lt;</span>
                                 <span className="nt">div</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"container-fluid"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-3">&lt;</span>
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
@@ -350,7 +390,7 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"#"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;</span>
                                 <span className="nt">img</span>
                                 <span className="na"> loading</span>
@@ -366,11 +406,11 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"30px"</span>
                                 <span className="p">&gt;</span> LOGO
-                                <br/>
+                                <br />
                                 <span className="p t-3">&lt;/</span>
                                 <span className="nt">a</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-3">&lt;</span>
                                 <span className="nt">button</span>
                                 <span className="na"> class</span>
@@ -395,7 +435,7 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"Toggle navigation"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;</span>
                                 <span className="nt">span</span>
                                 <span className="na"> class</span>
@@ -405,11 +445,11 @@ export const NavbarPage = () => {
                                 <span className="p">&lt;/</span>
                                 <span className="nt">span</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-3">&lt;/</span>
                                 <span className="nt">button</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-3">&lt;</span>
                                 <span className="nt">div</span>
                                 <span className="na"> class</span>
@@ -419,21 +459,21 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"navbarSupportedContent"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;</span>
                                 <span className="nt">ul</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"navbar-nav me-auto mb-2 mb-lg-0"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;</span>
                                 <span className="nt">li</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"nav-item"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;</span>
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
@@ -449,29 +489,29 @@ export const NavbarPage = () => {
                                 <span className="p">&lt;/</span>
                                 <span className="nt">a</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;/</span>
                                 <span className="nt">li</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;/</span>
                                 <span className="nt">ul</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;</span>
                                 <span className="nt">ul</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"navbar-nav me-auto mb-2 mb-lg-0"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;</span>
                                 <span className="nt">li</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"nav-item"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;</span>
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
@@ -481,7 +521,7 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"#"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-7">&lt;</span>
                                 <span className="nt">i</span>
                                 <span className="na"> class</span>
@@ -491,33 +531,33 @@ export const NavbarPage = () => {
                                 <span className="p">&lt;/</span>
                                 <span className="nt">i</span>
                                 <span className="p">&gt;</span> Iniciar Sesion
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;/</span>
                                 <span className="nt">a</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;/</span>
                                 <span className="nt">li</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;/</span>
                                 <span className="nt">ul</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;</span>
                                 <span className="nt">ul</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"navbar-nav me-auto mb-2 mb-lg-0"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;</span>
                                 <span className="nt">li</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"nav-item mx-auto d-block"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;</span>
                                 <span className="nt">a</span>
                                 <span className="na"> href</span>
@@ -530,29 +570,29 @@ export const NavbarPage = () => {
                                 <span className="p">&lt;/</span>
                                 <span className="nt">a</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;/</span>
                                 <span className="nt">li</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;/</span>
                                 <span className="nt">ul</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;</span>
                                 <span className="nt">ul</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"navbar-nav me-auto mb-2 mb-lg-0"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;</span>
                                 <span className="nt">li</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
                                 <span className="s">"nav-item dropdown"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;</span>
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
@@ -574,7 +614,7 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"false"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-7">&lt;</span>
                                 <span className="nt">i</span>
                                 <span className="na"> class</span>
@@ -584,11 +624,11 @@ export const NavbarPage = () => {
                                 <span className="p">&lt;/</span>
                                 <span className="nt">i</span>
                                 <span className="p">&gt;</span> Linces
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;/</span>
                                 <span className="nt">a</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;</span>
                                 <span className="nt">ul</span>
                                 <span className="na"> class</span>
@@ -598,11 +638,11 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"navbarDropdown"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-7">&lt;</span>
                                 <span className="nt">li</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-8">&lt;</span>
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
@@ -612,7 +652,7 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"#"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-9">&lt;</span>
                                 <span className="nt">button</span>
                                 <span className="na"> class</span>
@@ -625,7 +665,7 @@ export const NavbarPage = () => {
                                 <span className="o">=</span>
                                 <span className="s">"btnCerrarSesion"</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-10">&lt;</span>
                                 <span className="nt">i</span>
                                 <span className="na"> class</span>
@@ -635,39 +675,39 @@ export const NavbarPage = () => {
                                 <span className="p">&lt;/</span>
                                 <span className="nt">i</span>
                                 <span className="p">&gt;</span> Cerrar Sesion
-                                <br/>
+                                <br />
                                 <span className="p t-9">&lt;/</span>
                                 <span className="nt">button</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-8">&lt;/</span>
                                 <span className="nt">a</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-7">&lt;/</span>
                                 <span className="nt">li</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-6">&lt;/</span>
                                 <span className="nt">ul</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-5">&lt;/</span>
                                 <span className="nt">li</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-4">&lt;/</span>
                                 <span className="nt">ul</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-3">&lt;/</span>
                                 <span className="nt">div</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p t-2">&lt;/</span>
                                 <span className="nt">div</span>
                                 <span className="p">&gt;</span>
-                                <br/>
+                                <br />
                                 <span className="p">&lt;/</span>
                                 <span className="nt">nav</span>
                                 <span className="p">&gt;</span>
@@ -677,5 +717,5 @@ export const NavbarPage = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};

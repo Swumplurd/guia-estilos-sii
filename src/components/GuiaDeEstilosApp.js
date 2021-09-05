@@ -4,7 +4,7 @@ import { RouterApp } from "../routes/RouterApp";
 export const GuiaDeEstilosApp = () => {
     return (
         <>
-            <RouterApp/>
+            <RouterApp />
         </>
     );
 };

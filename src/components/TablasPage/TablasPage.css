@@ -1,10 +1,12 @@
-.table-body{ /*color del cuerpo de la tabla*/
-    background-color: #E2F0FF;
+.table-body {
+    /*color del cuerpo de la tabla*/
+    background-color: #e2f0ff;
     width: 100%;
 }
 
-.table-head{ /*color de la cabecera de la tabla*/
-    background-color: #3378BF;
+.table-head {
+    /*color de la cabecera de la tabla*/
+    background-color: #3378bf;
     color: white;
     width: 100%;
 }

@@ -1,5 +1,5 @@
-import React from 'react'
-import './CargaPage.css'
+import React from "react";
+import "./CargaPage.css";
 
 export const CargaPage = () => {
     return (
@@ -10,5 +10,5 @@ export const CargaPage = () => {
                 <img loading="lazy" className="img-load" src="assets/img/favico.png" alt=""></img>
             </div>
         </div>
-    )
-}
+    );
+};

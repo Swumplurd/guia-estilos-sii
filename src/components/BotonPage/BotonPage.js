@@ -1,5 +1,5 @@
 import React from "react";
-import './BotonPage.css'
+import "./BotonPage.css";
 
 export const BotonPage = () => {
     return (
