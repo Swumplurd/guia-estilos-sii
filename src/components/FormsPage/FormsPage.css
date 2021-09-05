@@ -1,0 +1,42 @@
+.btn-primary{
+    background-color: #073379;
+    color: var(--color-blanco);
+    border-color: #073379;
+    border-radius: 25px;
+  width: 150px;
+  color: #ffff;
+  
+}
+
+.btn-primary:hover{
+  background-color: #0b244b;
+  color: var(--color-blanco);
+  border-color: #0b244b;
+  border-radius: 25px;
+color: #ffff;
+}
+
+.formulario{
+  width: 460px;
+  outline: none;
+  height:44px;
+  bottom:14px;
+  border-radius:22px;
+  display: flex;
+  justify-content: center;
+  box-sizing:border-box;
+  padding:0 18px; 
+  background-color: #def;
+}
+
+.formulario:hover{
+background-color: #ffff;
+}
+
+textarea{
+background-color:cornsilk ;
+}
+
+textarea:hover{
+background-color: #ffff;
+}

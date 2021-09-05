@@ -1,0 +1,10 @@
+.table-body{ /*color del cuerpo de la tabla*/
+    background-color: #E2F0FF;
+    width: 100%;
+}
+
+.table-head{ /*color de la cabecera de la tabla*/
+    background-color: #3378BF;
+    color: white;
+    width: 100%;
+}
