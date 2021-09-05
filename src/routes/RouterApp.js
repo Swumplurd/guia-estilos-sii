@@ -66,15 +66,15 @@ export const RouterApp = () => {
                         </div>
                         <div className="col py-3">
                             <Switch>
-                                <Route exact path="/colores" component={ColorPage} />
-                                <Route exact path="/botones" component={BotonPage} />
-                                <Route exact path="/cards" component={CardPage} />
-                                <Route exact path="/forms" component={FormsPage} />
-                                <Route exact path="/navbar" component={NavbarPage} />
-                                <Route exact path="/tablas" component={TablasPage} />
-                                <Route exact path="/carga" component={CargaPage} />
-                                <Route exact path="/efectos" component={EfectosPage} />
-                                <Route exact path="/" component={HomePage} />
+                                <Route exact path="/guia-estilos-sii/colores" component={ColorPage} />
+                                <Route exact path="/guia-estilos-sii/botones" component={BotonPage} />
+                                <Route exact path="/guia-estilos-sii/cards" component={CardPage} />
+                                <Route exact path="/guia-estilos-sii/forms" component={FormsPage} />
+                                <Route exact path="/guia-estilos-sii/navbar" component={NavbarPage} />
+                                <Route exact path="/guia-estilos-sii/tablas" component={TablasPage} />
+                                <Route exact path="/guia-estilos-sii/carga" component={CargaPage} />
+                                <Route exact path="/guia-estilos-sii/efectos" component={EfectosPage} />
+                                <Route exact path="/guia-estilos-sii/" component={HomePage} />
                             </Switch>
                         </div>
                     </div>
