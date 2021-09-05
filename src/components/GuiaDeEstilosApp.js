@@ -1,10 +1,10 @@
 import React from "react";
-import { AppRouter } from "../routes/AppRouter";
+import { RouterApp } from "../routes/RouterApp";
 
 export const GuiaDeEstilosApp = () => {
     return (
         <>
-            <AppRouter/>
+            <RouterApp/>
         </>
     );
 };
