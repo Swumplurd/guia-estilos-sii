@@ -19,7 +19,7 @@ export const FormsPage = () => {
                                 <div className="input-group mb-3">
                                     <label htmlFor="nombre" className="input-group-text icon" id="basic-addon1"><i
                                             className="far fa-user"></i></label>
-                                    <input id="nombre" name="nombrea" type="text" className="formulario" placeholder="Nombre"
+                                    <input id="nombre" name="nombre" type="text" className="formulario" placeholder="Nombrea"
                                         aria-label="Nombre" aria-describedby="basic-addon1"/>
                                 </div>
                                 <div className="input-group mb-3">
