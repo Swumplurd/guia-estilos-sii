@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/guia-estilos-sii/static/css/main.cade59ff.chunk.css",
+    "main.js": "/guia-estilos-sii/static/js/main.de46d735.chunk.js",
+    "main.js.map": "/guia-estilos-sii/static/js/main.de46d735.chunk.js.map",
+    "runtime-main.js": "/guia-estilos-sii/static/js/runtime-main.4d5df81f.js",
+    "runtime-main.js.map": "/guia-estilos-sii/static/js/runtime-main.4d5df81f.js.map",
+    "static/css/2.a164ce41.chunk.css": "/guia-estilos-sii/static/css/2.a164ce41.chunk.css",
+    "static/js/2.ae126528.chunk.js": "/guia-estilos-sii/static/js/2.ae126528.chunk.js",
+    "static/js/2.ae126528.chunk.js.map": "/guia-estilos-sii/static/js/2.ae126528.chunk.js.map",
+    "index.html": "/guia-estilos-sii/index.html",
+    "static/css/2.a164ce41.chunk.css.map": "/guia-estilos-sii/static/css/2.a164ce41.chunk.css.map",
+    "static/css/main.cade59ff.chunk.css.map": "/guia-estilos-sii/static/css/main.cade59ff.chunk.css.map",
+    "static/js/2.ae126528.chunk.js.LICENSE.txt": "/guia-estilos-sii/static/js/2.ae126528.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-icons.css": "/guia-estilos-sii/static/media/bootstrap-icons.dfd0ea12.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d5df81f.js",
+    "static/css/2.a164ce41.chunk.css",
+    "static/js/2.ae126528.chunk.js",
+    "static/css/main.cade59ff.chunk.css",
+    "static/js/main.de46d735.chunk.js"
+  ]
+}
