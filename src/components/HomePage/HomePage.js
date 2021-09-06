@@ -49,10 +49,10 @@ export const HomePage = () => {
             <div className="row justify-content-center mt-3">
                 <div className="col-sm-3">
                     <div className="card text-center shadow card-item mb-3">
-                        <a className="mt-3 text-black" href="#" title="titulo">
+                        <a className="mt-3 text-black" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" title="titulo">
                             <b>Bootstrap</b>
                         </a>
-                        <a href="#" className="card-body" title="titulo">
+                        <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" className="card-body" title="titulo">
                             <div className="input-group">
                                 <img className="" width="100%" src="assets/img/B5.png" alt=""></img>
                             </div>
@@ -61,10 +61,10 @@ export const HomePage = () => {
                 </div>
                 <div className="col-sm-3">
                     <div className="card text-center shadow card-item mb-3">
-                        <a className="mt-3 text-black" href="#" title="titulo">
+                        <a className="mt-3 text-black" href="https://datatables.net/" title="titulo">
                             <b>DataTable</b>
                         </a>
-                        <a href="#" className="card-body" title="titulo">
+                        <a href="https://datatables.net/" className="card-body" title="titulo">
                             <div className="input-group">
                                 <img className="" width="80%" src="assets/img/DT.png" alt=""></img>
                             </div>
@@ -73,10 +73,10 @@ export const HomePage = () => {
                 </div>
                 <div className="col-sm-3">
                     <div className="card text-center shadow card-item mb-3">
-                        <a className="mt-3 text-black" href="#" title="titulo">
+                        <a className="mt-3 text-black" href="https://fontawesome.com/" title="titulo">
                             <b>FontAwesome</b>
                         </a>
-                        <a href="#" className="card-body" title="titulo">
+                        <a href="https://fontawesome.com/" className="card-body" title="titulo">
                             <div className="input-group">
                                 <img className="" width="80%" src="assets/img/FA.png" alt=""></img>
                             </div>

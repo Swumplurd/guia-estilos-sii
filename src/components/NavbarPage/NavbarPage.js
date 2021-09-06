@@ -13,8 +13,8 @@ export const NavbarPage = () => {
                 <div className="col-sm-12">
                     <nav className="navbar navbar-expand-lg navbar-dark bg_primary">
                         <div className="container-fluid">
-                            <a className="navbar-brand text-white" href="#">
-                                <img loading="lazy" src="assets/img/favico.png" width="30px" height="30px" /> LOGO
+                            <a className="navbar-brand text-white" href="/guia-estilos-sii/navbar">
+                                <img alt="..." loading="lazy" src="assets/img/favico.png" width="30px" height="30px" /> LOGO
                             </a>
                             <button
                                 className="navbar-toggler"
@@ -30,24 +30,24 @@ export const NavbarPage = () => {
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">
+                                        <a className="nav-link active" aria-current="page" href="/guia-estilos-sii/navbar">
                                             Inicio
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" href="#">
+                                        <a className="nav-link active" href="/guia-estilos-sii/navbar">
                                             Lorem.
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" href="#">
+                                        <a className="nav-link active" href="/guia-estilos-sii/navbar">
                                             Lorem, ipsum.
                                         </a>
                                     </li>
                                 </ul>
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="btn btn_primary" href="#">
+                                        <a className="btn btn_primary" href="/guia-estilos-sii/navbar">
                                             <i className="fas fa-user mr-1"></i> Iniciar Sesion
                                         </a>
                                     </li>
@@ -60,7 +60,7 @@ export const NavbarPage = () => {
             <div className="row mt-2">
                 <div className="col-sm-12">
                     <div className="highlight">
-                        <pre tabindex="0" className="chroma border border-light mx-2">
+                        <pre tabIndex="0" className="chroma border border-light mx-2">
                             <code className="language-html" data-lang="html">
                                 <span className="p">&lt;</span>
                                 <span className="nt">nav</span>
@@ -312,8 +312,8 @@ export const NavbarPage = () => {
                 <div className="col-sm-12">
                     <nav className="navbar navbar-expand-lg navbar-dark bg_primary">
                         <div className="container-fluid">
-                            <a className="navbar-brand text-white" href="#">
-                                <img loading="lazy" src="assets/img/favico.png" width="30px" height="30px" /> LOGO
+                            <a className="navbar-brand text-white" href="/guia-estilos-sii/navbar">
+                                <img alt="..." loading="lazy" src="assets/img/favico.png" width="30px" height="30px" /> LOGO
                             </a>
                             <button
                                 className="navbar-toggler"
@@ -329,26 +329,26 @@ export const NavbarPage = () => {
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">
+                                        <a className="nav-link active" aria-current="page" href="/guia-estilos-sii/navbar">
                                             Inicio
                                         </a>
                                     </li>
                                 </ul>
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item mx-auto d-block">
-                                        <a href="#" className="btn btn_primary">
+                                        <a href="/guia-estilos-sii/navbar" className="btn btn_primary">
                                             Enero -Junio
                                         </a>
                                     </li>
                                 </ul>
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item dropdown">
-                                        <a className="nav-link active dropdown-toggle btn btn_primary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a className="nav-link active dropdown-toggle btn btn_primary" href="/guia-estilos-sii/navbar" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             <i className="fas fa-user mr-1"></i> Linces
                                         </a>
                                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li>
-                                                <a className="dropdown-item" href="#">
+                                                <a className="dropdown-item" href="/guia-estilos-sii/navbar">
                                                     <button className="btn btn_outline_danger" type="button" id="btnCerrarSesion">
                                                         <i className="fas fa-power-off mr-1"></i> Cerrar Sesion
                                                     </button>
@@ -365,7 +365,7 @@ export const NavbarPage = () => {
             <div className="row mt-2">
                 <div className="col-sm-12">
                     <div className="highlight">
-                        <pre tabindex="0" className="chroma border border-light mx-2">
+                        <pre tabIndex="0" className="chroma border border-light mx-2">
                             <code className="language-html" data-lang="html">
                                 <span className="p">&lt;</span>
                                 <span className="nt">nav</span>
