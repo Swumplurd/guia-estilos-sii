@@ -110,7 +110,7 @@ export const EfectosPage = () => {
                 <img src="assets/img/favico.png" className="img-fluid rounded border border-dark rounded" alt="..."/>
                 <div className="boton-emergente mx-auto d-block">
                     <button href="/guia-estilos-sii/efectos" className="btn btn-primary" title="descargar download">
-                        <i class="bi bi-box-arrow-in-down"></i>
+                        <i className="bi bi-box-arrow-in-down"></i>
                     </button>
                 </div>
             </div>
