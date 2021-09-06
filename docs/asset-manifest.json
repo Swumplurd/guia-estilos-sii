@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c37fee73.chunk.css",
-    "main.js": "/static/js/main.96f57c94.chunk.js",
-    "main.js.map": "/static/js/main.96f57c94.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ec4ab658.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ec4ab658.js.map",
-    "static/css/2.452e5909.chunk.css": "/static/css/2.452e5909.chunk.css",
-    "static/js/2.18d8f0e4.chunk.js": "/static/js/2.18d8f0e4.chunk.js",
-    "static/js/2.18d8f0e4.chunk.js.map": "/static/js/2.18d8f0e4.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.452e5909.chunk.css.map": "/static/css/2.452e5909.chunk.css.map",
-    "static/css/main.c37fee73.chunk.css.map": "/static/css/main.c37fee73.chunk.css.map",
-    "static/js/2.18d8f0e4.chunk.js.LICENSE.txt": "/static/js/2.18d8f0e4.chunk.js.LICENSE.txt",
-    "static/media/bootstrap-icons.css": "/static/media/bootstrap-icons.dfd0ea12.woff2"
+    "main.css": "/guia-estilos-sii/static/css/main.521ea22e.chunk.css",
+    "main.js": "/guia-estilos-sii/static/js/main.a43d4628.chunk.js",
+    "main.js.map": "/guia-estilos-sii/static/js/main.a43d4628.chunk.js.map",
+    "runtime-main.js": "/guia-estilos-sii/static/js/runtime-main.4d5df81f.js",
+    "runtime-main.js.map": "/guia-estilos-sii/static/js/runtime-main.4d5df81f.js.map",
+    "static/css/2.a164ce41.chunk.css": "/guia-estilos-sii/static/css/2.a164ce41.chunk.css",
+    "static/js/2.ff1171da.chunk.js": "/guia-estilos-sii/static/js/2.ff1171da.chunk.js",
+    "static/js/2.ff1171da.chunk.js.map": "/guia-estilos-sii/static/js/2.ff1171da.chunk.js.map",
+    "index.html": "/guia-estilos-sii/index.html",
+    "static/css/2.a164ce41.chunk.css.map": "/guia-estilos-sii/static/css/2.a164ce41.chunk.css.map",
+    "static/css/main.521ea22e.chunk.css.map": "/guia-estilos-sii/static/css/main.521ea22e.chunk.css.map",
+    "static/js/2.ff1171da.chunk.js.LICENSE.txt": "/guia-estilos-sii/static/js/2.ff1171da.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-icons.css": "/guia-estilos-sii/static/media/bootstrap-icons.dfd0ea12.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec4ab658.js",
-    "static/css/2.452e5909.chunk.css",
-    "static/js/2.18d8f0e4.chunk.js",
-    "static/css/main.c37fee73.chunk.css",
-    "static/js/main.96f57c94.chunk.js"
+    "static/js/runtime-main.4d5df81f.js",
+    "static/css/2.a164ce41.chunk.css",
+    "static/js/2.ff1171da.chunk.js",
+    "static/css/main.521ea22e.chunk.css",
+    "static/js/main.a43d4628.chunk.js"
   ]
 }
