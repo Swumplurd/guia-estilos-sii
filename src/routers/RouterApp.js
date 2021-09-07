@@ -4,7 +4,7 @@ import { Sidebar } from '../components/Sidebar/Sidebar'
 
 export const RouterApp = () => {
     return (
-        <Router>
+        <Router basename="/guia-estilos-sii">
             <Sidebar/>
         </Router>
     )

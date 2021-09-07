@@ -1,6 +1,6 @@
 {
-  "short_name": "Guia de Estilos SII",
-  "name": "Guia de Estilos SII",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
