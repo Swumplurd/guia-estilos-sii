@@ -4,7 +4,7 @@ import "./FormsPage.css";
 export const FormsPage = () => {
     return (
         <>
-            <div className="container mt-5">
+            <div className="container mt-5 animate__animated animate__fadeIn">
                 <div className="row">
                     <div className="col-md-10">
                         <h1 className="display-4">Formularios</h1>
