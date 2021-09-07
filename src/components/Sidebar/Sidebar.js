@@ -15,9 +15,20 @@ import "./Sidebar.css";
 
 export const Sidebar = () => {
     const [theme, setTheme] = useState(false)
+    const [show, setShow] = useState(false)
 
     const handleDark = () => {
         setTheme(!theme)
+    }
+
+    const handleHide = () => {
+        document.getElementById('menu-control').checked = false
+    }
+
+    const handleShowHide = () => {
+        setShow(!show)
+        document.getElementById('menu-control').checked = show
+        setShow(false)
     }
 
     useEffect(() => {
@@ -31,7 +42,7 @@ export const Sidebar = () => {
 
     return (
         <section className="banner">
-            <label htmlFor="menu-control" className="hamburger">
+            <label htmlFor="menu-control" onClick={handleShowHide} className="hamburger">
                 <i className="hamburger__icon bg-secondary"></i>
                 <i className="hamburger__icon bg-secondary"></i>
                 <i className="hamburger__icon bg-secondary"></i>
@@ -41,33 +52,33 @@ export const Sidebar = () => {
 
             <aside className="sidebar">
                 <nav className="sidebar__menu">
-                    <NavLink className="display-6 fs-4" to="/">
+                    <NavLink onClick={handleHide} className="display-6 fs-4" to="/">
                         <i className="fs-4 bi bi-house me-2"></i>Home
                     </NavLink>
-                    <NavLink className="display-6 fs-4" to="/colores">
+                    <NavLink onClick={handleHide} className="display-6 fs-4" to="/colores">
                         <i className="fs-4 bi bi-brush me-2"></i>Colores
                     </NavLink>
-                    <NavLink className="display-6 fs-4" to="/botones">
+                    <NavLink onClick={handleHide} className="display-6 fs-4" to="/botones">
                         <i className="fs-4 bi bi-square me-2"></i>Botones
                     </NavLink>
-                    <NavLink className="display-6 fs-4" to="/cards">
+                    <NavLink onClick={handleHide} className="display-6 fs-4" to="/cards">
                         <i className="fs-4 bi bi-file-richtext me-2"></i>Cards
                     </NavLink>
-                    <NavLink className="display-6 fs-4" to="/forms">
+                    <NavLink onClick={handleHide} className="display-6 fs-4" to="/forms">
                         <i className="fs-4 bi bi-input-cursor-text me-2"></i>
                         Forms
                     </NavLink>
-                    <NavLink className="display-6 fs-4" to="/navbar">
+                    <NavLink onClick={handleHide} className="display-6 fs-4" to="/navbar">
                         <i className="fs-4 bi bi-window me-2"></i>Navbar
                     </NavLink>
-                    <NavLink className="display-6 fs-4" to="/tablas">
+                    <NavLink onClick={handleHide} className="display-6 fs-4" to="/tablas">
                         <i className="fs-4 bi bi-grid-3x2 me-2"></i>Tablas
                     </NavLink>
-                    <NavLink className="display-6 fs-6" to="/carga">
+                    <NavLink onClick={handleHide} className="display-6 fs-6" to="/carga">
                         <i className="fs-4 bi bi-hourglass-split me-2"></i>
                         Mascara de Carga
                     </NavLink>
-                    <NavLink className="display-6 fs-4" to="/efectos">
+                    <NavLink onClick={handleHide} className="display-6 fs-4" to="/efectos">
                         <i className="fs-4 bi bi-gem me-2"></i>Efectos
                     </NavLink>
 

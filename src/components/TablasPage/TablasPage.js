@@ -67,11 +67,11 @@ export const TablasPage = () => {
             <div className="row mt-4">
                 <div className="col">
                     <div>
-                        <pre className="chroma p-3 rounded">
+                        <pre className="chroma p-3 mx-2 rounded">
                             <code>
                                 <span className="p">&lt;</span>
                                 <span className="nt">table</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;table table-body&#34;
@@ -80,7 +80,7 @@ export const TablasPage = () => {
                                 <br />
                                 <span className="p ps-4">&lt;</span>
                                 <span className="nt">thead</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;table-head&#34;</span>
                                 <span className="p">&gt;</span>
@@ -330,11 +330,11 @@ export const TablasPage = () => {
             <div className="row mt-4">
                 <div className="col">
                     <div>
-                        <pre className="chroma p-3 rounded">
+                        <pre className="chroma p-3 mx-2 rounded">
                             <code>
                                 <span className="p">&lt;</span>
                                 <span className="nt">table</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;table table-body border
@@ -344,7 +344,7 @@ export const TablasPage = () => {
                                 <br />
                                 <span className="p ps-4">&lt;</span>
                                 <span className="nt">thead</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;table-head&#34;</span>
                                 <span className="p">&gt;</span>
