@@ -81,19 +81,13 @@ export const Sidebar = () => {
                 <ul className="sidebar__social">
                     
                     <li>
-                        <div className="d-flex justify-content-center form-check form-switch">
-                            <label
-                                className="form-check-label"
-                                htmlFor="themeSwitch"
-                            >
-                                🌝
-                            </label>
+                        <div className="form-check form-switch">
                             <input onChange={handleDark} className="form-check-input" type="checkbox" id="themeSwitch"/>
                             <label
                                 className="form-check-label"
                                 htmlFor="themeSwitch"
                             >
-                                🌚 
+                                🌗 
                             </label>
                         </div>
                     </li>
