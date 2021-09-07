@@ -1,0 +1,108 @@
+.btn-primary {
+    background-color: #073379;
+    color: var(--color-blanco);
+    border-color: #073379;
+    border-radius: 25px;
+    width: 150px;
+    color: #ffff;
+}
+
+.btn-primary:hover {
+    background-color: #0b244b;
+    color: var(--color-blanco);
+    border-color: #0b244b;
+    border-radius: 25px;
+    color: #ffff;
+}
+
+.formulario {
+    width: 220px;
+    outline: none;
+    height: 44px;
+    bottom: 14px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 18px;
+    background-color: #def;
+    border: 0px;
+    box-shadow: 0px 3px 0px 0px black;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+.icon {
+    width: 40px;
+    box-shadow: 0px 3px 0px 0px black;
+    height: 44px;
+    bottom: 14px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+    padding: 0 18px;
+    background-color: #def;
+    color: #073379;
+}
+
+.formulario:hover {
+    background-color: #ffff;
+}
+
+@media only screen and (max-width: 360px) {
+    .formulario {
+        width: 180px;
+        outline: none;
+        height: 44px;
+        bottom: 14px;
+        border-radius: 22px;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 0 18px;
+        background-color: #def;
+        border: 0px;
+        box-shadow: 0px 3px 0px 0px black;
+        -webkit-box-sizing: border-box;
+        /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;
+        /* Firefox, other Gecko */
+        box-sizing: border-box;
+        /* Opera/IE 8+ */
+    }
+
+    .icon {
+        width: 40px;
+        box-shadow: 0px 3px 0px 0px black;
+        height: 44px;
+        bottom: 14px;
+        border-radius: 22px;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;
+        /* Firefox, other Gecko */
+        box-sizing: border-box;
+        /* Opera/IE 8+ */
+        padding: 0 18px;
+        background-color: #def;
+        color: #073379;
+    }
+
+    .formulario:hover {
+        background-color: #ffff;
+    }
+}
