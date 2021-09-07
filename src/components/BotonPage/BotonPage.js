@@ -55,14 +55,14 @@ export const BotonPage = () => {
             <div className="row mt-4">
                 <div className="col">
                     <div>
-                        <pre className="chroma p-3 rounded">
+                        <pre className="chroma p-3 mx-2 rounded">
                             <code>
                                 <span className="p">&lt;</span>
                                 <span className="nt">button</span>{" "}
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-primary&#34;
@@ -77,7 +77,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-secondary&#34;
@@ -92,7 +92,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-success&#34;
@@ -107,7 +107,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-danger&#34;
@@ -122,7 +122,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-warning&#34;
@@ -137,7 +137,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-info&#34;
@@ -152,7 +152,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-light&#34;
@@ -167,7 +167,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-dark&#34;
@@ -232,14 +232,14 @@ export const BotonPage = () => {
             <div className="row mt-4">
                 <div className="col">
                     <div>
-                        <pre className="chroma p-3 rounded">
+                        <pre className="chroma p-3 mx-2 rounded">
                             <code>
                                 <span className="p">&lt;</span>
                                 <span className="nt">button</span>{" "}
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-outline-primary&#34;
@@ -254,7 +254,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-outline-secondary&#34;
@@ -269,7 +269,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-outline-success&#34;
@@ -284,7 +284,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-outline-danger&#34;
@@ -299,7 +299,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-outline-warning&#34;
@@ -314,7 +314,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-outline-info&#34;
@@ -329,7 +329,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-outline-light&#34;
@@ -344,7 +344,7 @@ export const BotonPage = () => {
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">&#34;button&#34;</span>{" "}
-                                <span className="na">className</span>
+                                <span className="na">class</span>
                                 <span className="o">=</span>
                                 <span className="s">
                                     &#34;btn btn-outline-dark&#34;

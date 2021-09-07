@@ -5,7 +5,7 @@ export const TablasPage = () => {
     return (
         <div className="container mt-5 animate__animated animate__fadeIn">
             <div className="row">
-                <div className="col mt-4">
+                <div className="col">
                     <h1 className="display-4">Tablas</h1>
                     <hr />
                     <p className="lead">
