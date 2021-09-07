@@ -3,12 +3,12 @@ import "./NavbarPage.css";
 
 export const NavbarPage = () => {
     return (
-        <div className="container">
+        <div className="container mt-5 animate__animated animate__fadeIn">
             <div className="row">
                 <div className="col">
                     <h1 className="display-4">Navbar</h1>
+                    <hr/>
                 </div>
-                <hr/>
             </div>
             <div className="row mt-2">
                 <div className="col">
@@ -312,8 +312,8 @@ export const NavbarPage = () => {
             <div className="row mt-1">
                 <div className="col">
                     <p className="fs-2 text_start">Despues de iniciar sesión</p>
+                    <hr/>
                 </div>
-                <hr/>
             </div>
             <div className="row mt-2">
                 <div className="col-md-11">

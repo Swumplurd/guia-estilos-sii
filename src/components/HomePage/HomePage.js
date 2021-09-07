@@ -6,8 +6,8 @@ export const HomePage = () => {
             <div className="row">
                 <div className="col">
                     <h1 className="display-4">Guía de Estilos</h1>
+                    <hr/>
                 </div>
-                <hr/>
             </div>
             <div className="row mt-2">
                 <div className="col-sm-12">
@@ -45,8 +45,8 @@ export const HomePage = () => {
             <div className="row mt-2">
                 <div className="col">
                     <p className="lead text-justify">Utilizando el framework y paqueterias</p>
+                    <hr/>
                 </div>
-                <hr/>
             </div>
             <div className="row justify-content-around mt-3">
                 <div className="col-md-4 mb-3">
@@ -89,8 +89,8 @@ export const HomePage = () => {
             <div className="row mt-2">
                 <div className="col">
                     <p className="lead text-justify">Integrantes del Equipo</p>
+                    <hr/>
                 </div>
-                <hr/>
             </div>
             <div className="row justify-content-around">
                 <div className="col-sm-3">
