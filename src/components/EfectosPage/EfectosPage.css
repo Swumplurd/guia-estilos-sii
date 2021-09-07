@@ -336,8 +336,23 @@ body {
     padding-left: 18%;
 }
 
+.contenerdor-btn {
+    position: relative;
+    overflow: hidden;
+}
+
 .shadows {
     box-shadow: -3px 3px 5px rgb(153, 153, 153, 0.7);
+}
+
+.boton-emergente {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    padding: 7px;
+    transform: translateY(-50%);
+    transition: all 0.5s ease-out;
 }
 
 .contenerdor-btn:hover .boton-emergente {

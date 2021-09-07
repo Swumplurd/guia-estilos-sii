@@ -39,12 +39,16 @@ export const EfectosPage = () => {
                     </code>
                 </pre>
 
-                <div className="card pricing cards my-3 text-dark ms-2" style={{width: "18rem"}}>
-                    <img src="https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap" className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="/guia-estilos-sii/efectos" className="btn btn-primary">Go somewhere</a>
+                <div className="pricing">
+                    <div className="card cards my-3 text-dark ms-2" style={{ width: "18rem" }}>
+                        <img src="https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Card title</h5>
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="/guia-estilos-sii/efectos" className="btn btn-primary">
+                                Go somewhere
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -70,7 +74,9 @@ export const EfectosPage = () => {
                     </code>
                 </pre>
 
-                <button type="button" className="mb-4 ms-2 btn shadows btn-primary">Button</button>
+                <button type="button" className="mb-4 ms-2 btn shadows btn-primary">
+                    Button
+                </button>
 
                 <pre tabIndex="0" className="chroma p-3 rounded mx-2">
                     <code className="language-css" data-lang="css">
@@ -100,7 +106,15 @@ export const EfectosPage = () => {
                 </pre>
             </div>
             
-            <button type="button" className="btn contenedor-btn boton-emergente btn-primary">Button</button>?
+            <div className="contenedor-btn">
+                <img src="assets/img/favico.png" className="img-fluid rounded border border-dark rounded" alt="..."/>
+                <div className="boton-emergente mx-auto d-block">
+                    <button href="/guia-estilos-sii/efectos" className="btn btn-primary" title="descargar download">
+                        <i class="bi bi-box-arrow-in-down"></i>
+                    </button>
+                </div>
+            </div>
+            ?
         </>
     );
 };

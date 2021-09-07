@@ -45,10 +45,10 @@ export const CardPage = () => {
                     <div className="row">
                         <div className="col-md-4">
                             <div className="card text-center shadow card-item mb-3">
-                                <a className="mt-3 text-black" href="/card" title="titulo">
+                                <a className="mt-3 text-black" href="/guia-estilos-sii/cards" title="titulo">
                                     <b>Titulo</b>
                                 </a>
-                                <a href="/card" className="card-body" title="titulo">
+                                <a href="/guia-estilos-sii/cards" className="card-body" title="titulo">
                                     <div className="input-group">
                                         <img className="" width="60%" src="assets/img/favico.png" alt=""></img>
                                         <p className="display-3 ml-1">M</p>
@@ -58,10 +58,10 @@ export const CardPage = () => {
                         </div>
                         <div className="col-md-4">
                             <div className="card text-center shadow card-item mb-3">
-                                <a className="mt-3 text-black" href="/card" title="titulo">
+                                <a className="mt-3 text-black" href="/guia-estilos-sii/cards" title="titulo">
                                     <b>Titulo</b>
                                 </a>
-                                <a href="/card" className="card-body" title="titulo">
+                                <a href="/guia-estilos-sii/cards" className="card-body" title="titulo">
                                     <div className="input-group">
                                         <img className="" width="60%" src="assets/img/favico.png" alt=""></img>
                                         <p className="display-3 ml-1">M</p>
@@ -71,10 +71,10 @@ export const CardPage = () => {
                         </div>
                         <div className="col-md-4">
                             <div className="card text-center shadow card-item mb-3">
-                                <a className="mt-3 text-black" href="/card" title="titulo">
+                                <a className="mt-3 text-black" href="/guia-estilos-sii/cards" title="titulo">
                                     <b>Titulo</b>
                                 </a>
-                                <a href="/card" className="card-body" title="titulo">
+                                <a href="/guia-estilos-sii/cards" className="card-body" title="titulo">
                                     <div className="input-group">
                                         <img className="" width="60%" src="assets/img/favico.png" alt=""></img>
                                         <p className="display-3 ml-1">M</p>
