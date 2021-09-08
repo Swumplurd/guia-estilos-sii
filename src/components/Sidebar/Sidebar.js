@@ -50,7 +50,7 @@ export const Sidebar = () => {
 
             <input type="checkbox" id="menu-control" className="menu-control" />
 
-            <aside className="sidebar">
+            <aside className="sidebar" style={{ zIndex: "1" }}>
                 <nav className="sidebar__menu">
                     <NavLink onClick={handleHide} className="display-6 fs-4" to="/">
                         <i className="fs-4 bi bi-house me-2"></i>Home
@@ -105,7 +105,7 @@ export const Sidebar = () => {
                 </ul>
             </aside>
 
-            <div className="container" style={{ zIndex: "-1" }}>
+            <div className="container">
                 <div className="row">
                     <div className="col">
                         <div>
