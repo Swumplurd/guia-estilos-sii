@@ -214,7 +214,7 @@ export const FormsPage = () => {
                                     <span className="nt">form</span>
                                     <span className="p">&gt;</span>
                                     <br />
-                                    <span className="p">&lt;</span>
+                                    <span className="t-2 p">&lt;</span>
                                     <span className="nt">div</span>{" "}
                                     <span className="na">class</span>
                                     <span className="o">=</span>
