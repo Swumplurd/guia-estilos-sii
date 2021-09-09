@@ -205,801 +205,803 @@ export const FormsPage = () => {
                         </p>
                         <hr />
                     </div>
-                    <div className="row mt-4">
+                    
                         <div className="col-md-10">
-                            <div className="border border-dark mx-2">
-                                <pre className="chroma">
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">form</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="t-2 p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                            <div>
+                                <code>
+                                    <pre className="chroma p-3 rounded">
+                                        <br />
+                                        <span className="p">&lt;</span>
+                                        <span className="nt">form</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-2 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;form-content&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-3 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;row justify-content-center&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-4 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;col-md-6 text-center&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;input-group mb-3&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">label</span>{" "}
-                                    <span className="na">for</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">label</span>{" "}
+                                        <span className="na">for</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;nombre&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;input-group-text icon&#34;
-                                    </span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;</span>
-                                    <span className="nt">i</span>
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;&lt;</span>
+                                        <span className="nt">i</span>
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;far fa-user&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">i</span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">label</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">input</span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">i</span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">label</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">input</span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;nombre&#34;
-                                    </span>{" "}
-                                    <span className="na">name</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">name</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;nombre&#34;
-                                    </span>{" "}
-                                    <span className="na">type</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">type</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;text&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;formulario&#34;
-                                    </span>{" "}
-                                    <span className="na">placeholder</span>
-                                    <span className="o">=</span>
-                                    <span className="s">&#34;Nombre&#34;</span>
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">label</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">placeholder</span>
+                                        <span className="o">=</span>
+                                        <span className="s">&#34;Nombre&#34;</span>
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">label</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;Nombre&#34;
-                                    </span>{" "}
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">describedby</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">describedby</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;input-group mb-3&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">label</span>{" "}
-                                    <span className="na">for</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">label</span>{" "}
+                                        <span className="na">for</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;apellido_p&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;input-group-text icon&#34;
-                                    </span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;</span>
-                                    <span className="nt">i</span>
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;&lt;</span>
+                                        <span className="nt">i</span>
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;far fa-user&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">i</span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">label</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">input</span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">i</span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">label</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">input</span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;apellido_p&#34;
-                                    </span>{" "}
-                                    <span className="na">name</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">name</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;apellido_p&#34;
-                                    </span>{" "}
-                                    <span className="na">type</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">type</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;text&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;formulario&#34;
-                                    </span>
-                                    <span className="na">placeholder</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="na">placeholder</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;Apellido Paterno&#34;
-                                    </span>{" "}
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">label</span>
-                                    <span className="o">=</span>
-                                    <span className="s">&#34;Nombre&#34;</span>
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">describedby</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">label</span>
+                                        <span className="o">=</span>
+                                        <span className="s">&#34;Nombre&#34;</span>
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">describedby</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;input-group mb-3&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">label</span>{" "}
-                                    <span className="na">for</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">label</span>{" "}
+                                        <span className="na">for</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;apellido_m&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;input-group-text icon&#34;
-                                    </span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;</span>
-                                    <span className="nt">i</span>
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;&lt;</span>
+                                        <span className="nt">i</span>
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;far fa-user&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">i</span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">label</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">input</span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">i</span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">label</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">input</span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;apellido_m&#34;
-                                    </span>{" "}
-                                    <span className="na">name</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">name</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;apellido_m&#34;
-                                    </span>{" "}
-                                    <span className="na">type</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">type</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;text&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;formulario&#34;
-                                    </span>
-                                    <span className="na">placeholder</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="na">placeholder</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;Apellido Materno&#34;
-                                    </span>{" "}
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">label</span>
-                                    <span className="o">=</span>
-                                    <span className="s">&#34;Nombre&#34;</span>
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">describedby</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">label</span>
+                                        <span className="o">=</span>
+                                        <span className="s">&#34;Nombre&#34;</span>
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">describedby</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;input-group mb-3&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">label</span>{" "}
-                                    <span className="na">for</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">label</span>{" "}
+                                        <span className="na">for</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;direccion&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;input-group-text icon&#34;
-                                    </span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;</span>
-                                    <span className="nt">i</span>
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;&lt;</span>
+                                        <span className="nt">i</span>
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;fas fa-map-marked-alt&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">i</span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">label</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">input</span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">i</span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">label</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">input</span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;direccion&#34;
-                                    </span>{" "}
-                                    <span className="na">name</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">name</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;direccion&#34;
-                                    </span>{" "}
-                                    <span className="na">type</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">type</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;text&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;formulario&#34;
-                                    </span>
-                                    <span className="na">placeholder</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="na">placeholder</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;Direccion&#34;
-                                    </span>{" "}
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">label</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">label</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;Nombre&#34;
-                                    </span>{" "}
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">describedby</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">describedby</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-4 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-4 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;col-md-6
                                         justify-content-center&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;input-group mb-3&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">label</span>{" "}
-                                    <span className="na">for</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">label</span>{" "}
+                                        <span className="na">for</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;usuario&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;input-group-text icon&#34;
-                                    </span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;</span>
-                                    <span className="nt">i</span>
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
+                                        </span>
+                                        <span className="p">&gt;&lt;</span>
+                                        <span className="nt">i</span>
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
                                         &#34;fas fa-user-tag&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">i</span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">i</span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">label</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">input</span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;usuario&#34;
-                                    </span>{" "}
-                                    <span className="na">name</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;usuario&#34;
-                                    </span>{" "}
-                                    <span className="na">type</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;text&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;formulario&#34;
-                                    </span>
-                                    <span className="na">placeholder</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;Usuario&#34;
-                                    </span>{" "}
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">label</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;Nombre&#34;
-                                    </span>{" "}
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">describedby</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;input-group mb-3&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">label</span>{" "}
-                                    <span className="na">for</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;correo&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;input-group-text icon&#34;
-                                    </span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;</span>
-                                    <span className="nt">i</span>
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;far fa-envelope&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">i</span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">i</span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">label</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">input</span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;correo&#34;
-                                    </span>{" "}
-                                    <span className="na">name</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;correo&#34;
-                                    </span>{" "}
-                                    <span className="na">type</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;text&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;formulario&#34;
-                                    </span>{" "}
-                                    <span className="na">placeholder</span>
-                                    <span className="o">=</span>
-                                    <span className="s">&#34;Correo&#34;</span>
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">label</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;Nombre&#34;
-                                    </span>{" "}
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">describedby</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;input-group mb-3&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">label</span>{" "}
-                                    <span className="na">for</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;contraseña&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;input-group-text icon&#34;
-                                    </span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;</span>
-                                    <span className="nt">i</span>
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;fas fa-lock&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">i</span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">label</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">input</span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;contraseña&#34;
-                                    </span>{" "}
-                                    <span className="na">name</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;contraseña&#34;
-                                    </span>{" "}
-                                    <span className="na">type</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;text&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;formulario&#34;
-                                    </span>
-                                    <span className="na">placeholder</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;Contraseña&#34;
-                                    </span>{" "}
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">label</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;Nombre&#34;
-                                    </span>{" "}
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">describedby</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;input-group mb-3&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">label</span>{" "}
-                                    <span className="na">for</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;c_contraseña&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;input-group-text icon&#34;
-                                    </span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;</span>
-                                    <span className="nt">i</span>
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;fas fa-lock&#34;
-                                    </span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">i</span>
-                                    <span className="p">&gt;&lt;/</span>
-                                    <span className="nt">label</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">input</span>{" "}
-                                    <span className="na">id</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;c_contraseña&#34;
-                                    </span>{" "}
-                                    <span className="na">name</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;c_contraseña&#34;
-                                    </span>{" "}
-                                    <span className="na">type</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;text&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;formulario&#34;
-                                    </span>
-                                    <span className="na">placeholder</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;Confirma Contraseña&#34;
-                                    </span>{" "}
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">label</span>
-                                    <span className="o">=</span>
-                                    <span className="s">&#34;Nombre&#34;</span>
-                                    <span className="na">aria</span>
-                                    <span className="err">-</span>
-                                    <span className="na">describedby</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;basic-addon1&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">div</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;form-floating mb-3 form-group&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br /> <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">button</span>{" "}
-                                    <span className="na">type</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;button&#34;
-                                    </span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;mb-5 btn btn-primary&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;</span>
-                                    <span className="nt">p</span>{" "}
-                                    <span className="na">class</span>
-                                    <span className="o">=</span>
-                                    <span className="s">
-                                        &#34;texto-blanco&#34;
-                                    </span>
-                                    <span className="p">&gt;</span>
-                                    <span className="nx">Registrarse</span>
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">p</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">button</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">div</span>
-                                    <span className="p">&gt;</span>
-                                    <br />
-                                    <span className="p">&lt;/</span>
-                                    <span className="nt">form</span>
-                                    <span className="p">&gt;</span>
-                                </pre>
+                                        </span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">i</span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">i</span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">label</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">input</span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;usuario&#34;
+                                        </span>{" "}
+                                        <span className="na">name</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;usuario&#34;
+                                        </span>{" "}
+                                        <span className="na">type</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;text&#34;
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;formulario&#34;
+                                        </span>
+                                        <span className="na">placeholder</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;Usuario&#34;
+                                        </span>{" "}
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">label</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;Nombre&#34;
+                                        </span>{" "}
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">describedby</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;basic-addon1&#34;
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;input-group mb-3&#34;
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">label</span>{" "}
+                                        <span className="na">for</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;correo&#34;
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;input-group-text icon&#34;
+                                        </span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;basic-addon1&#34;
+                                        </span>
+                                        <span className="p">&gt;&lt;</span>
+                                        <span className="nt">i</span>
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;far fa-envelope&#34;
+                                        </span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">i</span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">i</span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">label</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">input</span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;correo&#34;
+                                        </span>{" "}
+                                        <span className="na">name</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;correo&#34;
+                                        </span>{" "}
+                                        <span className="na">type</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;text&#34;
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;formulario&#34;
+                                        </span>{" "}
+                                        <span className="na">placeholder</span>
+                                        <span className="o">=</span>
+                                        <span className="s">&#34;Correo&#34;</span>
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">label</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;Nombre&#34;
+                                        </span>{" "}
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">describedby</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;basic-addon1&#34;
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;input-group mb-3&#34;
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">label</span>{" "}
+                                        <span className="na">for</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;contraseña&#34;
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;input-group-text icon&#34;
+                                        </span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;basic-addon1&#34;
+                                        </span>
+                                        <span className="p">&gt;&lt;</span>
+                                        <span className="nt">i</span>
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;fas fa-lock&#34;
+                                        </span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">i</span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">label</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">input</span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;contraseña&#34;
+                                        </span>{" "}
+                                        <span className="na">name</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;contraseña&#34;
+                                        </span>{" "}
+                                        <span className="na">type</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;text&#34;
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;formulario&#34;
+                                        </span>
+                                        <span className="na">placeholder</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;Contraseña&#34;
+                                        </span>{" "}
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">label</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;Nombre&#34;
+                                        </span>{" "}
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">describedby</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;basic-addon1&#34;
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;input-group mb-3&#34;
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">label</span>{" "}
+                                        <span className="na">for</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;c_contraseña&#34;
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;input-group-text icon&#34;
+                                        </span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;basic-addon1&#34;
+                                        </span>
+                                        <span className="p">&gt;&lt;</span>
+                                        <span className="nt">i</span>
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;fas fa-lock&#34;
+                                        </span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">i</span>
+                                        <span className="p">&gt;&lt;/</span>
+                                        <span className="nt">label</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-6 p">&lt;</span>
+                                        <span className="nt">input</span>{" "}
+                                        <span className="na">id</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;c_contraseña&#34;
+                                        </span>{" "}
+                                        <span className="na">name</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;c_contraseña&#34;
+                                        </span>{" "}
+                                        <span className="na">type</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;text&#34;
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;formulario&#34;
+                                        </span>
+                                        <span className="na">placeholder</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;Confirma Contraseña&#34;
+                                        </span>{" "}
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">label</span>
+                                        <span className="o">=</span>
+                                        <span className="s">&#34;Nombre&#34;</span>
+                                        <span className="na">aria</span>
+                                        <span className="err">-</span>
+                                        <span className="na">describedby</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;basic-addon1&#34;
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-4 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-3 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-3 p">&lt;</span>
+                                        <span className="nt">div</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;form-floating mb-3 form-group&#34;
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-4 p">&lt;</span>
+                                        <span className="nt">button</span>{" "}
+                                        <span className="na">type</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;button&#34;
+                                        </span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;mb-5 btn btn-primary&#34;
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-5 p">&lt;</span>
+                                        <span className="nt">p</span>{" "}
+                                        <span className="na">class</span>
+                                        <span className="o">=</span>
+                                        <span className="s">
+                                            &#34;texto-blanco&#34;
+                                        </span>
+                                        <span className="p">&gt;</span>
+                                        <span className="nx">Registrarse</span>
+                                        <span className="p">&lt;/</span>
+                                        <span className="nt">p</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-4 p">&lt;/</span>
+                                        <span className="nt">button</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-3 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="t-2 p">&lt;/</span>
+                                        <span className="nt">div</span>
+                                        <span className="p">&gt;</span>
+                                        <br />
+                                        <span className="p">&lt;/</span>
+                                        <span className="nt">form</span>
+                                        <span className="p">&gt;</span>
+                                    </pre>
+                                </code>
                             </div>
                         </div>
-                    </div>
+                    
                     <div className="col-md-10">
                         <h2>Formulario de registro</h2>
                         <p className="lead">
@@ -1008,78 +1010,78 @@ export const FormsPage = () => {
                         <hr />
                     </div>
 
-                    <div className="row mt-4">
+                    
                         <div className="col-md-10">
-                            <div className="border border-dark mx-2">
-                                <pre className="chroma">
+                            <code>
+                                <pre className="chroma p-3 rounded">
                                     <br />
                                     <span className="p">.</span>
                                     <span className="nc">formulario</span>{" "}
                                     <span className="p">{"{"}</span>
                                     <br />
-                                    <span className="k">width</span>
+                                    <span className="t-2 k">width</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">280</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">outline</span>
+                                    <span className="t-2 k">outline</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">none</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">height</span>
+                                    <span className="t-2 k">height</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">44</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">bottom</span>
+                                    <span className="t-2 k">bottom</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">14</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">border-radius</span>
+                                    <span className="t-2 k">border-radius</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">22</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">display</span>
+                                    <span className="t-2 k">display</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">flex</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">justify-content</span>
+                                    <span className="t-2 k">justify-content</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">center</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">box-sizing</span>
+                                    <span className="t-2 k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">padding</span>
+                                    <span className="t-2 k">padding</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">0</span>{" "}
                                     <span className="mi">18</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">background-color</span>
+                                    <span className="t-2 k">background-color</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mh">#def</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">border</span>
+                                    <span className="t-2 k">border</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">0</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">box-shadow</span>
+                                    <span className="t-2 k">box-shadow</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">0</span>
                                     <span className="kt">px</span>{" "}
@@ -1092,7 +1094,7 @@ export const FormsPage = () => {
                                     <span className="kc">black</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="kp">-webkit-</span>
+                                    <span className="t-2 kp">-webkit-</span>
                                     <span className="k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
@@ -1101,7 +1103,7 @@ export const FormsPage = () => {
                                         /* Safari/Chrome, other WebKit */
                                     </span>
                                     <br />
-                                    <span className="kp">-moz-</span>
+                                    <span className="t-2 kp">-moz-</span>
                                     <span className="k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
@@ -1110,7 +1112,7 @@ export const FormsPage = () => {
                                         /* Firefox, other Gecko */
                                     </span>
                                     <br />
-                                    <span className="k">box-sizing</span>
+                                    <span className="t-2 k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
                                     <span className="p">;</span>{" "}
@@ -1122,13 +1124,13 @@ export const FormsPage = () => {
                                     <span className="nc">icon</span>{" "}
                                     <span className="p">{"{"}</span>
                                     <br />
-                                    <span className="k">width</span>
+                                    <span className="t-2 k">width</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">40</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">box-shadow</span>
+                                    <span className="t-2 k">box-shadow</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">0</span>
                                     <span className="kt">px</span>{" "}
@@ -1141,40 +1143,40 @@ export const FormsPage = () => {
                                     <span className="kc">black</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">height</span>
+                                    <span className="t-2 k">height</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">44</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">bottom</span>
+                                    <span className="t-2 k">bottom</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">14</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">border-radius</span>
+                                    <span className="t-2 k">border-radius</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">22</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">display</span>
+                                    <span className="t-2 k">display</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">flex</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">justify-content</span>
+                                    <span className="t-2 k">justify-content</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">center</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">box-sizing</span>
+                                    <span className="t-2 k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="kp">-webkit-</span>
+                                    <span className="t-2 kp">-webkit-</span>
                                     <span className="k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
@@ -1183,7 +1185,7 @@ export const FormsPage = () => {
                                         /* Safari/Chrome, other WebKit */
                                     </span>
                                     <br />
-                                    <span className="kp">-moz-</span>
+                                    <span className="t-2 kp">-moz-</span>
                                     <span className="k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
@@ -1192,25 +1194,25 @@ export const FormsPage = () => {
                                         /* Firefox, other Gecko */
                                     </span>
                                     <br />
-                                    <span className="k">box-sizing</span>
+                                    <span className="t-2 k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
                                     <span className="p">;</span>{" "}
                                     <span className="c">/* Opera/IE 8+ */</span>
                                     <br />
-                                    <span className="k">padding</span>
+                                    <span className="t-2 k">padding</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">0</span>{" "}
                                     <span className="mi">18</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">background-color</span>
+                                    <span className="t-2 k">background-color</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mh">#def</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">color</span>
+                                    <span className="t-2 k">color</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mh">#073379</span>
                                     <span className="p">;</span>
@@ -1223,7 +1225,7 @@ export const FormsPage = () => {
                                     <span className="nd">hover</span>{" "}
                                     <span className="p">{"{"}</span>
                                     <br />
-                                    <span className="k">background-color</span>
+                                    <span className="t-2 k">background-color</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mh">#ffff</span>
                                     <span className="p">;</span>
@@ -1242,73 +1244,73 @@ export const FormsPage = () => {
                                     <span className="o">)</span>{" "}
                                     <span className="p">{"{"}</span>
                                     <br />
-                                    <span className="p">.</span>
+                                    <span className="t-2 p">.</span>
                                     <span className="nc">formulario</span>{" "}
                                     <span className="p">{"{"}</span>
                                     <br />
-                                    <span className="k">width</span>
+                                    <span className="t-3 t-3 k">width</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">180</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">outline</span>
+                                    <span className="t-3 k">outline</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">none</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">height</span>
+                                    <span className="t-3 k">height</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">44</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">bottom</span>
+                                    <span className="t-3 k">bottom</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">14</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">border-radius</span>
+                                    <span className="t-3 k">border-radius</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">22</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">display</span>
+                                    <span className="t-3 k">display</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">flex</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">justify-content</span>
+                                    <span className="t-3 k">justify-content</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">center</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">box-sizing</span>
+                                    <span className="t-3 k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">padding</span>
+                                    <span className="t-3 k">padding</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">0</span>{" "}
                                     <span className="mi">18</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">background-color</span>
+                                    <span className="t-3 k">background-color</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mh">#def</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">border</span>
+                                    <span className="t-3 k">border</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">0</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">box-shadow</span>
+                                    <span className="t-3 k">box-shadow</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">0</span>
                                     <span className="kt">px</span>{" "}
@@ -1321,7 +1323,7 @@ export const FormsPage = () => {
                                     <span className="kc">black</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="kp">-webkit-</span>
+                                    <span className="t-3 kp">-webkit-</span>
                                     <span className="k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
@@ -1330,7 +1332,7 @@ export const FormsPage = () => {
                                         /* Safari/Chrome, other WebKit */
                                     </span>
                                     <br />
-                                    <span className="kp">-moz-</span>
+                                    <span className="t-3 kp">-moz-</span>
                                     <span className="k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
@@ -1339,25 +1341,25 @@ export const FormsPage = () => {
                                         /* Firefox, other Gecko */
                                     </span>
                                     <br />
-                                    <span className="k">box-sizing</span>
+                                    <span className="t-3 k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
                                     <span className="p">;</span>{" "}
                                     <span className="c">/* Opera/IE 8+ */</span>
                                     <br />
-                                    <span className="p">{"}"}</span>
+                                    <span className="t-2 p">{"}"}</span>
                                     <br />
-                                    <span className="p">.</span>
+                                    <span className="t-2 t-3 p">.</span>
                                     <span className="nc">icon</span>{" "}
                                     <span className="p">{"{"}</span>
                                     <br />
-                                    <span className="k">width</span>
+                                    <span className="t-3 k">width</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">40</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">box-shadow</span>
+                                    <span className="t-3 k">box-shadow</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">0</span>
                                     <span className="kt">px</span>{" "}
@@ -1370,40 +1372,40 @@ export const FormsPage = () => {
                                     <span className="kc">black</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">height</span>
+                                    <span className="t-3 k">height</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">44</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">bottom</span>
+                                    <span className="t-3 k">bottom</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">14</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">border-radius</span>
+                                    <span className="t-3 k">border-radius</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">22</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">display</span>
+                                    <span className="t-3 k">display</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">flex</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">justify-content</span>
+                                    <span className="t-3 k">justify-content</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">center</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">box-sizing</span>
+                                    <span className="t-3 k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="kp">-webkit-</span>
+                                    <span className="t-3 kp">-webkit-</span>
                                     <span className="k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
@@ -1412,7 +1414,7 @@ export const FormsPage = () => {
                                         /* Safari/Chrome, other WebKit */
                                     </span>
                                     <br />
-                                    <span className="kp">-moz-</span>
+                                    <span className="t-3 kp">-moz-</span>
                                     <span className="k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
@@ -1421,49 +1423,48 @@ export const FormsPage = () => {
                                         /* Firefox, other Gecko */
                                     </span>
                                     <br />
-                                    <span className="k">box-sizing</span>
+                                    <span className="t-3 k">box-sizing</span>
                                     <span className="p">:</span>{" "}
                                     <span className="kc">border-box</span>
                                     <span className="p">;</span>{" "}
                                     <span className="c">/* Opera/IE 8+ */</span>
                                     <br />
-                                    <span className="k">padding</span>
+                                    <span className="t-3 k">padding</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mi">0</span>{" "}
                                     <span className="mi">18</span>
                                     <span className="kt">px</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">background-color</span>
+                                    <span className="t-3 k">background-color</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mh">#def</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="k">color</span>
+                                    <span className="t-3 k">color</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mh">#073379</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="p">{"}"}</span>
+                                    <span className="t-2 p">{"}"}</span>
                                     <br />
-                                    <span className="p">.</span>
+                                    <span className="t-2 p">.</span>
                                     <span className="nc">formulario</span>
                                     <span className="p">:</span>
                                     <span className="nd">hover</span>{" "}
                                     <span className="p">{"{"}</span>
                                     <br />
-                                    <span className="k">background-color</span>
+                                    <span className="t-3 k">background-color</span>
                                     <span className="p">:</span>{" "}
                                     <span className="mh">#ffff</span>
                                     <span className="p">;</span>
                                     <br />
-                                    <span className="p">{"}"}</span>
+                                    <span className="t-2 p">{"}"}</span>
                                     <br />
                                     <span className="p">{"}"}</span>
                                 </pre>
-                            </div>
+                            </code>
                         </div>
-                    </div>
                 </div>
             </div>
         </>
