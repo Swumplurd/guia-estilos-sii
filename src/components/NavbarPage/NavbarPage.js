@@ -1,5 +1,4 @@
 import React from "react";
-import "./NavbarPage.css";
 
 export const NavbarPage = () => {
     return (
@@ -17,7 +16,7 @@ export const NavbarPage = () => {
             </div>
             <div className="row mt-2">
                 <div className="col-md-11">
-                    <nav className="navbar navbar-expand-lg navbar-dark bg_primary">
+                    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
                         <div className="container-fluid">
                             <a className="navbar-brand text-white" href="/guia-estilos-sii/navbar">
                                 <img alt="..." loading="lazy" src="assets/img/favico.png" width="30px" height="30px" /> LOGO
@@ -53,7 +52,7 @@ export const NavbarPage = () => {
                                 </ul>
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="btn btn_primary" href="/guia-estilos-sii/navbar">
+                                        <a className="btn btn-primary" href="/guia-estilos-sii/navbar">
                                             <i className="fas fa-user mr-1"></i> Iniciar Sesion
                                         </a>
                                     </li>
@@ -72,7 +71,7 @@ export const NavbarPage = () => {
                                 <span className="nt">nav</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
-                                <span className="s">"navbar navbar-expand-lg navbar-dark bg_primary"</span>
+                                <span className="s">"navbar navbar-expand-lg navbar-dark bg-primary"</span>
                                 <span className="p">&gt;</span>
                                 <br />
                                 <span className="p t-2">&lt;</span>
@@ -265,7 +264,7 @@ export const NavbarPage = () => {
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
-                                <span className="s">"btn btn_primary"</span>
+                                <span className="s">"btn btn-primary"</span>
                                 <span className="na"> href</span>
                                 <span className="o">=</span>
                                 <span className="s">"#"</span>
@@ -317,7 +316,7 @@ export const NavbarPage = () => {
             </div>
             <div className="row mt-2">
                 <div className="col-md-11">
-                    <nav className="navbar navbar-expand-lg navbar-dark bg_primary">
+                    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
                         <div className="container-fluid">
                             <a className="navbar-brand text-white" href="/guia-estilos-sii/navbar">
                                 <img alt="..." loading="lazy" src="assets/img/favico.png" width="30px" height="30px" /> LOGO
@@ -343,20 +342,20 @@ export const NavbarPage = () => {
                                 </ul>
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item mx-auto d-block">
-                                        <a href="/guia-estilos-sii/navbar" className="btn btn_primary">
+                                        <a href="/guia-estilos-sii/navbar" className="btn btn-primary">
                                             Enero -Junio
                                         </a>
                                     </li>
                                 </ul>
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item dropdown">
-                                        <a className="nav-link active dropdown-toggle btn btn_primary" href="/guia-estilos-sii/navbar" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a className="nav-link active dropdown-toggle btn btn-primary" href="/guia-estilos-sii/navbar" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             <i className="fas fa-user mr-1"></i> Linces
                                         </a>
                                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li>
                                                 <a className="dropdown-item" href="/guia-estilos-sii/navbar">
-                                                    <button className="btn btn_outline_danger" type="button" id="btnCerrarSesion">
+                                                    <button className="btn btn-outline-danger" type="button" id="btnCerrarSesion">
                                                         <i className="fas fa-power-off mr-1"></i> Cerrar Sesion
                                                     </button>
                                                 </a>
@@ -378,7 +377,7 @@ export const NavbarPage = () => {
                                 <span className="nt">nav</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
-                                <span className="s">"navbar navbar-expand-lg navbar-dark bg_primary"</span>
+                                <span className="s">"navbar navbar-expand-lg navbar-dark bg-primary"</span>
                                 <span className="p">&gt;</span>
                                 <br />
                                 <span className="p t-2">&lt;</span>
@@ -523,7 +522,7 @@ export const NavbarPage = () => {
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
-                                <span className="s">"btn btn_primary"</span>
+                                <span className="s">"btn btn-primary"</span>
                                 <span className="na"> href</span>
                                 <span className="o">=</span>
                                 <span className="s">"#"</span>
@@ -572,7 +571,7 @@ export const NavbarPage = () => {
                                 <span className="s">"#"</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
-                                <span className="s">"btn btn_primary"</span>
+                                <span className="s">"btn btn-primary"</span>
                                 <span className="p">&gt;</span> Enero -Junio
                                 <span className="p">&lt;/</span>
                                 <span className="nt">a</span>
@@ -604,7 +603,7 @@ export const NavbarPage = () => {
                                 <span className="nt">a</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
-                                <span className="s">"nav-link active dropdown-toggle btn btn_primary"</span>
+                                <span className="s">"nav-link active dropdown-toggle btn btn-primary"</span>
                                 <span className="na">href</span>
                                 <span className="o">=</span>
                                 <span className="s">"#"</span>
@@ -664,7 +663,7 @@ export const NavbarPage = () => {
                                 <span className="nt">button</span>
                                 <span className="na"> class</span>
                                 <span className="o">=</span>
-                                <span className="s">"btn btn_outline_danger"</span>
+                                <span className="s">"btn btn-outline_danger"</span>
                                 <span className="na">type</span>
                                 <span className="o">=</span>
                                 <span className="s">"button"</span>

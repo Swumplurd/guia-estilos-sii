@@ -1,5 +1,4 @@
 import React from "react";
-import "./ColorPage.css";
 
 export const ColorPage = () => {
     return (
@@ -20,47 +19,47 @@ export const ColorPage = () => {
                         style={{ backgroundColor: "#ddd" }}
                     >
                         <div className="col-md-6 col-lg-4">
-                            <div className="p-3 mb-3 primary text-white">
+                            <div className="p-3 mb-3 bg-primary text-white">
                                 Primary
                             </div>
                         </div>
 
                         <div className="col-md-6 col-lg-4">
-                            <div className="p-3 mb-3 secondary text-white">
+                            <div className="p-3 mb-3 bg-secondary text-white">
                                 Secondary
                             </div>
                         </div>
 
                         <div className="col-md-6 col-lg-4">
-                            <div className="p-3 mb-3 success text-dark">
+                            <div className="p-3 mb-3 bg-success text-dark">
                                 Success
                             </div>
                         </div>
 
                         <div className="col-md-6 col-lg-4">
-                            <div className="p-3 mb-3 danger text-white">
+                            <div className="p-3 mb-3 bg-danger text-white">
                                 Danger
                             </div>
                         </div>
 
                         <div className="col-md-6 col-lg-4">
-                            <div className="p-3 mb-3 warning text-dark">
+                            <div className="p-3 mb-3 bg-warning text-dark">
                                 Warning
                             </div>
                         </div>
 
                         <div className="col-md-6 col-lg-4">
-                            <div className="p-3 mb-3 info text-dark">Info</div>
+                            <div className="p-3 mb-3 bg-info text-dark">Info</div>
                         </div>
 
                         <div className="col-md-6 col-lg-4">
-                            <div className="p-3 mb-3 light text-dark">
+                            <div className="p-3 mb-3 bg-light text-dark">
                                 Light
                             </div>
                         </div>
 
                         <div className="col-md-6 col-lg-4">
-                            <div className="p-3 mb-3 dark text-white">Dark</div>
+                            <div className="p-3 mb-3 bg-dark text-white">Dark</div>
                         </div>
                     </div>
 
