@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, Route, Switch } from "react-router-dom";
+import { About } from "../About/About";
 
 import { BotonPage } from "../BotonPage/BotonPage";
 import { CardPage } from "../CardPage/CardPage";
@@ -149,6 +150,11 @@ export const Sidebar = () => {
                                     exact
                                     path="/efectos"
                                     component={EfectosPage}
+                                />
+                                <Route
+                                    exact
+                                    path="/about"
+                                    component={About}
                                 />
                                 <Route exact path="/" component={HomePage} />
                             </Switch>
