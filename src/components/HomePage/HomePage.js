@@ -22,15 +22,15 @@ export const HomePage = () => {
                     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active badge text-wrap">
-                                <img src="assets/img/favico.png" className="d-block" width="56%" alt="..." />
+                                <img src="assets/img/favico.png" className="mx-auto d-block" width="56%" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src="assets/img/Captura_01.png" className="d-block" width="100%" alt="..." />
+                                <img src="assets/img/code_blue_home.png" className="w-100 mx-auto d-block" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src="assets/img/Captura_02.png" className="d-block" width="100%" alt="..." />
+                                <img src="assets/img/code_blue_login.png" className="w-100 mx-auto d-block" alt="..." />
                             </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <button className="carousel-control-prev btn btn-carousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span className="visually-hidden">Previous</span>
                             </button>
@@ -42,19 +42,19 @@ export const HomePage = () => {
                     </div>
                 </div>
             </div>
-            <div className="row mt-2">
+            <div className="row mt-5">
                 <div className="col">
                     <p className="lead text-justify">Utilizando el framework y paqueterias</p>
                     <hr/>
                 </div>
             </div>
-            <div className="row justify-content-around mt-3">
+            <div className="row justify-content-around mt-3 pricing">
                 <div className="col-md-4 mb-3">
                     <div className="card h-100 text-center shadow card-item mb-3">
-                        <a className="mt-3 text-black" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" title="titulo">
+                        <a className="mt-3 text-black" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank" title="Bootstrap">
                             <b>Bootstrap</b>
                         </a>
-                        <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" className="card-body" title="titulo">
+                        <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank" className="card-body" title="Bootstrap">
                             <div className="input-group">
                                 <img className="img-fluid" src="assets/img/B5.png" alt=""></img>
                             </div>
@@ -63,10 +63,10 @@ export const HomePage = () => {
                 </div>
                 <div className="col-md-4 mb-3">
                     <div className="card h-100 text-center shadow card-item mb-3">
-                        <a className="mt-3 text-black" href="https://datatables.net/" title="titulo">
+                        <a className="mt-3 text-black" href="https://datatables.net/" target="_blank" title="DataTable">
                             <b>DataTable</b>
                         </a>
-                        <a href="https://datatables.net/" className="card-body" title="titulo">
+                        <a href="https://datatables.net/" target="_blank" className="card-body" title="DataTable">
                             <div className="input-group">
                                 <img className="img-fluid" src="assets/img/DT.png" alt=""></img>
                             </div>
@@ -75,10 +75,10 @@ export const HomePage = () => {
                 </div>
                 <div className="col-md-4 mb-3">
                     <div className="card h-100 text-center shadow card-item mb-3">
-                        <a className="mt-3 text-black" href="https://fontawesome.com/" title="titulo">
+                        <a className="mt-3 text-black" href="https://fontawesome.com/" target="_blank" title="FontAwesome">
                             <b>FontAwesome</b>
                         </a>
-                        <a href="https://fontawesome.com/" className="card-body" title="titulo">
+                        <a href="https://fontawesome.com/" target="_blank" className="card-body" title="FontAwesome">
                             <div className="input-group">
                                 <img className="img-fluid" src="assets/img/FA.png" alt=""></img>
                             </div>
@@ -86,7 +86,7 @@ export const HomePage = () => {
                     </div>
                 </div>
             </div>
-            <div className="row mt-2">
+            <div className="row mt-5">
                 <div className="col">
                     <p className="lead text-justify">Integrantes del Equipo</p>
                     <hr/>
